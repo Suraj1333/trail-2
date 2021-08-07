@@ -4,16 +4,16 @@ backend:
 media_folder: "public/assets"
 public_folder: "/assets"
 collections: 
-       -name: "blog"
-        label: "Blog"
-        folder: "src/blog"
-        create: true
-        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-        fields: 
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Date", name: "Date", widget: "datetime" }
-          - { label: "Tags", name: "tags", widget: "list, default: ["post"] }
-          - { label: "Description", name: "description", widget: "string" }
-          - { label: "Featured Image", name: "image", widget: "image" }
-          - { label: "Image Caption", name: "imageAlt", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog"
+    label: "Blog"
+    folder: "src/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: 
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "Date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list, default: ["post"] }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
