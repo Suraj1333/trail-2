@@ -355,6 +355,10 @@ footer .reservation {
     margin: 0rem 2rem;
     position: relative;
 }
+.articles-story {
+    display: flex;
+    flex-direction: column;
+}
 
 .story {
     margin-top: 3rem;
