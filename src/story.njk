@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spectrum | Stories</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✍</text></svg>">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <a href="index.html"><h4>Spectrum</a></h4>
-        </div>
-        <nav>
-            <ol>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-            </ol>
-        </nav>
-    </header>
+---
+title: Spectrum | Stories
+layout: 'base.njk'
+emoji: ✍
+
+---
 
     <section class="heading">
         <h1>🧾 Stories</h1>
@@ -27,26 +11,34 @@
 
     <main>
 
-        <div class="floating-submit">
-            
-            <a href="#"> <button class="floating">  Submit Your Story </button></a>
-            
-        </div>
         
 
     
-        <section class="articles story" id="recents">
-    
+        <section class="articles story"> 
+
+            {%- for post in collections.post | reverse -%}
            
-            <div class="article-one article-layout">
+            {% include 'article-r.njk' %}
+
+            {%- endfor %}  
+  
+        </section>
+
+
+    </main> 
+
+
+<!--
+
+<div class="article-one article-layout">
                 <div class="article-content">
                     <div class="article-text">
-                        <a href="individual-article.html"><h2>Test Article Title - One</h2></a>
+                        <a href="./individual-article/"><h2>Test Article Title - One</h2></a>
                         <p class="date">04 August 2021</p>
                         <p>
                             Here goes the description of the test article which gives an overview of the article people are about to read. The author of this article should be writing this description.
                         </p>
-                        <a href="individual-article.html">
+                        <a href="./individual-article/">
                         <button class="cta-main cta-article">
                             Read More
                         </button>
@@ -54,7 +46,7 @@
                     </div>
                 </div>
                 <div class="article-image">
-                    <img src="assets/article-one-image.jpg" alt="this is a test" class="article-one-image">
+                    <img src="./assets/article-one-image.jpg/" alt="this is a test" class="article-one-image">
                 </div>
             </div>
     
@@ -98,23 +90,4 @@
                 </div>
             </div>
     
-
-    
-        </section>
-    </main> 
-
-    <footer>
-        <div class="logo">
-            <a href="index.html"><h4>Spectrum</a></h4>
-        </div>
-        <div class="reservation">
-            © 2021 All rights reserved.
-        </div>
-    </footer>
-
-    
-    
-
-    
-</body>
-</html>
+-->

@@ -1,0 +1,25 @@
+<div class="article-one article-layout">
+
+                
+
+                <div class="article-content">
+                        <div class="article-text"> 
+                                <a href="{{post.url}}"><h2> {{ post.data.title }} </h2> </a>
+                                <p class="date">{{post.date | postDate }}</p>
+                                <p>
+                                    {{post.data.description}}
+                                </p>
+                            <a href="{{post.url}}">
+                                <button class="cta-main cta-article">
+                                    Read More
+                                </button>
+                            </a>
+                        </div>
+                        
+                </div>
+                 <div class="article-image">
+                    <img src="{{post.data.image}}" alt="{{post.data.imageAlt}}" class="article-one-image">
+                </div>
+                
+
+            </div>  

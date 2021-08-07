@@ -1,0 +1,57 @@
+---
+layout: 'base.njk'
+title: Spectrum
+emoji: 🚀
+
+---
+
+
+
+
+
+    <div class="floating-submit">
+        
+        <a href="#"> <button class="floating">  Submit Your Story </button></a>
+        
+    </div>
+    
+    <section class="intro">
+        <div class="intro-content">
+            <h2>
+                Welcome to Spectrum!
+            </h2>
+            <p>
+                It’s no wonder that photography quotes are one of the most popular things to share on social media, usually by other photographers, of course.
+                Reading one line that encapsulates our love for photography and art is powerful and often reminds us of the importance of documenting moments with our cameras.
+            </p>
+            <a href="#recents" class="cta-link">
+                <button class="cta-main">
+                Recent Stories
+                </button>
+            </a> 
+        </div>
+        <div class="intro-image">
+            <img src="assets/hero.png" alt="Man on rocket">
+        </div>
+    </section>
+
+    <section class="articles" id="recents">
+
+        <h2 class="top-heading">Recent Story</h2>
+
+            <section class="articles story"> 
+
+            {%- for post in collections.recents | reverse -%}
+           
+            {% include 'article-r.njk' %}
+
+            {%- endfor %}  
+  
+        </section>
+
+    </section>
+ 
+
+
+
+    

@@ -1,7 +1,7 @@
 ---
 title: Test Article One
-date: 2021-08-04
-tags: ["post", "recents"]
+date: 2021-05-01
+tags: post
 image: /assets/article-one-image.jpg
 imageAlt: This is a test
 description: Here goes the description of the test article which gives an overview of the article people are about to read. The author of this article should be writing this description.
