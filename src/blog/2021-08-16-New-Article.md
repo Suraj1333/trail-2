@@ -1,10 +1,13 @@
 ---
 title: A new Article
-description: A Brand New Chapter of my backend work. LOL I couldn't find another image, so im keeping the same one. Using the same image was confusing so i had to find a new from the internet.
+date: 2021-08-02T09:32:09.198Z
+tags:
+  - post
+  - recents
 image: /assets/new-article-image.jpeg
-tags: ["post", "recents"]
-
-
+description: A Brand New Chapter of my backend work. LOL I couldn't find another
+  image, so im keeping the same one. Using the same image was confusing so i had
+  to find a new from the internet.
 ---
 
 
