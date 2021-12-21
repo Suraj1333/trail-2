@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Pacifico&display=swap&family=Playfair+Display:wght@700&display=swap');
 
 :root {
-    --background-color: #1F212E;
-    --primary: #FAFAFA;
+    --background-color: #fdfdfd;
+    --primary: #0A1A2A;
     --secondary: #B4BEE5;
     --inter: 'Inter', sans-serif;
-    --color-shape: #252A41;
+    --color-shape: #e5e5e5;
     --pattern: #9da4c0c7;
 }
 html {
