@@ -29,7 +29,7 @@ a {
 }
 body {
     background-color: var(--background-color);
-    
+    background-image: url(assets/Background.png);
     position: relative;
     font-family: 'Inter', sans-serif;
     
