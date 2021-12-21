@@ -8,6 +8,12 @@
     --color-shape: #e5e5e5;
     --pattern: #16273B;
 }
+.darkmode {
+    --background-color: #0A1A2A;
+    --color-shape: #16273B;
+    --primary: #ffff;
+    --secondary: #e5e5e5;
+}
 html {
 	scroll-behavior: smooth;
 }
