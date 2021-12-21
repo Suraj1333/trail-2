@@ -104,6 +104,18 @@ nav ol li a {
 nav ol li a:hover {
     color: var(--secondary);
 }
+.dark-mode-toggle {
+                height: 30px;
+                width: 30px;
+                margin: 0rem 1rem;
+                border: 2px solid var(--primary);
+                padding: 4px;
+                background: transparent;
+                cursor: pointer;
+                border-radius: 5px;
+                z-index: 100;
+
+            }
 
 .intro {
     display: flex;
