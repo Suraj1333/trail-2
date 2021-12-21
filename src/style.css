@@ -71,12 +71,12 @@ header {
 .logo h4 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 1.5rem;
-    color: #0A1A2A;
+    color: var(--primary);
     cursor: pointer;
 }
 .logo a {
     text-decoration: none;
-    color: #0A1A2A;
+    color: var(--primary);
 }
 nav ol {
     display: flex;
@@ -233,7 +233,7 @@ nav ol li a:hover {
     height: auto;
     background-color: var(--color-shape);
     padding: 2%;
-    border: #e4e4e470 3px;     
+    border: var(--secondary) 3px;     
     border-radius: 1rem;
     border-style: dashed;
 }
@@ -253,7 +253,7 @@ nav ol li a:hover {
     border-radius: 5px;
 }
 .article-text p {
-    color: #16273B;
+    color: var(--secondary);
     line-height: 1.5rem;
     width: 75%;
     margin: 0.5rem 0rem;
@@ -398,7 +398,7 @@ footer .reservation {
     gap: 3rem;
     margin: 2rem 0rem;
     padding: 2%;
-    border: dashed #e4e4e470 3px;
+    border: dashed var(--secondary) 3px;
     border-radius: 1rem;
     background-color: var(--color-shape);
     box-shadow: 10px 10px 0px 0.5px var(--background-color),
@@ -409,7 +409,7 @@ footer .reservation {
     max-width: 100%;
 }
 .indi-text p {
-    color: #fff;
+    color: var(--secondary);
 }
 
 @media (max-width: 500px) {
