@@ -242,11 +242,13 @@ nav ol li a:hover {
     flex-direction: column;    
     justify-content: center;
     align-items: flex-start;
+    font-family: 'Source Code Pro', monospace;
 }
 .article-text h2 {
     color: var(--secondary);
     margin: 1rem 0rem;
     font-size: 1.8rem;
+    font-family: 'Source Code Pro', monospace;
     
 }
 .article-image img{
@@ -257,10 +259,12 @@ nav ol li a:hover {
     line-height: 1.5rem;
     width: 75%;
     margin: 0.5rem 0rem;
+    font-family: 'Source Code Pro', monospace;
 }
 .date {
     opacity: 0.8;
     font-weight: 400;
+    font-family: 'Source Code Pro', monospace;
 }
 .cta-article {
     width: 8rem;
