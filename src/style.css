@@ -398,21 +398,26 @@ footer .reservation {
     color: var(--primary);
     font-size: 3rem;
     margin: 1rem 0rem;
+	font-family: 'Source Code Pro', monospace;
 }
 .individual-article p {
     margin: 1rem 0rem;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 700;
 }
 .individual-article .main-article-date {
     margin: 0.5rem;
-    color: #eee;
+    color: var(--secondary);
     opacity: 0.8;
     font-weight: 400;
+	font-family: 'Source Code Pro', monospace;
 }
 .main-content {
     margin: 0.8rem;
     color: #fff;
     line-height: 1.5rem;
     text-align: justify;
+	font-family: 'Source Code Pro', monospace;
 }
 .content-indi {
     display: flex;
@@ -434,6 +439,8 @@ footer .reservation {
 }
 .indi-text p {
     color: var(--secondary);
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 700;
 }
 
 @media (max-width: 500px) {
