@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Pacifico&display=swap&family=Playfair+Display:wght@700&display=swap');
 
 :root {
     --background-color: #1F212E;
@@ -69,7 +69,7 @@ header {
     margin: 2.5rem 2.5rem;
 }
 .logo h4 {
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 1.5rem;
     color: #fff;
     cursor: pointer;
