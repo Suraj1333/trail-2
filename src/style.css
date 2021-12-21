@@ -71,12 +71,12 @@ header {
 .logo h4 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 1.5rem;
-    color: #fff;
+    color: #0A1A2A;
     cursor: pointer;
 }
 .logo a {
     text-decoration: none;
-    color: #fff;
+    color: #0A1A2A;
 }
 nav ol {
     display: flex;
@@ -90,7 +90,7 @@ nav ol li {
 nav ol li a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
-    color: #fff;
+    color: #0A1A2A;
     transition: all ease-in-out 0.2s;    
     padding-bottom: 0.5rem;
 
@@ -253,7 +253,7 @@ nav ol li a:hover {
     border-radius: 5px;
 }
 .article-text p {
-    color: #fafafa;
+    color: #16273B;
     line-height: 1.5rem;
     width: 75%;
     margin: 0.5rem 0rem;
