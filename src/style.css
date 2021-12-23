@@ -355,7 +355,12 @@ footer {
 }
 footer a {
 	font-family: 'Source Code Pro', monospace;
+	font-size: 1rem;
 }
+footer a:hover {
+	text-decoration: underline;
+}
+	
 
 footer .reservation {
     color: #e4e4e4;
