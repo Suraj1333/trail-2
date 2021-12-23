@@ -353,6 +353,10 @@ footer {
     gap: 2rem;
     text-align: center;
 }
+footer a {
+	font-family: 'Source Code Pro', monospace;
+}
+
 footer .reservation {
     color: #e4e4e4;
 }
