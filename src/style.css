@@ -14,6 +14,20 @@
     --primary: #ffff;
     --secondary: #e5e5e5;
 }
+::-webkit-scrollbar {
+    width: 0.75rem;
+    
+}
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+    margin-block: 0.25rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-shape);
+    border-radius: 100vw;
+    border: 1px solid var(--secondary);
+}
+
 html {
 	scroll-behavior: smooth;
 }
