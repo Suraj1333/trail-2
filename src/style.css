@@ -464,7 +464,7 @@ footer .reservation {
 .indi-text p {
     color: var(--secondary);
 	font-family: 'Source Code Pro', monospace;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 @media (max-width: 500px) {
